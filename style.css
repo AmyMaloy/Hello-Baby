@@ -33,7 +33,6 @@ h1 {
 
 .sign-ubutton {
     background-color: floralwhite;
-    color: blue;
     font-weight: 200;
     padding: 5px 20px;
     justify-content: center;
@@ -78,14 +77,71 @@ h2 {
 
 .quote-wrapper{
     background-color: #E5E7EB;
-    padding: 40px 40px;
+    padding: 20px 20px;
 }
 
 .quote-text {
-    font-size: 30px;
-    font-style: italic #1F2937;
+    font-size: 26px;
+    font-style: #1F2937;
     font-weight: lighter;
 }
+
+.call-to-action-wrapper {
+    margin: 60px;
+}
+
+.call-to-action-container {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    width: 600px;
+    height: 80px;
+    margin: 0px;
+    padding: 5px;
+    display: flex;
+    justify-items: center;
+    border: none;
+    border-radius: 5px;
+}
+
+.call-to-action-card {
+    padding: 20px;
+    margin: 0;
+    align-items: center;
+}
+
+h3 {
+    margin-top: 0px;
+    margin-bottom:0;
+}
+
+.call-to-action-text {
+    padding: 0px;
+    margin: 0;
+}
+
+.sign-up-button-second {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 5px;
+    border: 1px solid #E5E7EB;
+    align-items: center;
+    margin: 20px;
+    padding: 20px; 
+}
+
+.footer {
+    background-color: teal;
+    color:#E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 0px;
+
+
+}
+
+
 
 
 
