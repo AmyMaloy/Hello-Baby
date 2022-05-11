@@ -1,72 +1,50 @@
 body {
+ display: flex;
+ flex-direction: column;
  margin: 0;
- padding: 0;
+ min-height: 100vh;
+ font-family: "Roboto", sans-serif;
 }
 
 .hero {
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
+   background-color: teal;
+   display: flex;
+   justify-content: center;
+   margin: 0;
+}
+
+.hero-card {
+   align-self: center;
+   justify-content: space-between;
+   padding: 60px 40px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+.hero-text {
+    color: white;
+}
+
+.sign-ubutton {
+    background-color: floralwhite;
+    color: blue;
+    font-weight: 200;
+    padding: 5px 20px;
     justify-content: center;
-    align-items: center;
+    border-radius: 10px;
+    border: 0;
 }
 
-.hero::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url(images/sand.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    filter: brightness(60%)
-}
 
-.hero-content {
-    position: relative;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #F9FAF8;
-    text-align: center;
-    margin: 0.625rem;
-}
-
-.hero-title {
-    font-size: 3rem;
-    font-weight: 600;
-    margin-bottom: 0;
-}
-
-.hero-subtitle {
-    font-size: 2rem;
-    font-weight: 200;
-    margin-top: 1rem;
-}
-
-.hero-button {
-    background-color: #ae2d59 ;
-    color: White;
-    border: 1px solid #cb376a;
-    margin-top: 5rem;
-    padding: 0.9375rem 1.875rem;
-    font-family:'Courier New', Courier, sans-serif;
-    font-size: 1.125rem;
-    font-weight: 200;
-    cursor: pointer;
-}
-
-.card-wrapper {
-    margin: 100px;
-}
-
-.card-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+.cards-wrapper {
+    margin: 80px;
+    font-size: 12px;
 }
 
 h2 {
@@ -77,17 +55,36 @@ h2 {
     margin-top: -50px;
 }
 
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 .card-image {
-    width: 200px;
-    height: 200px;
-    margin: 20px;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
     border-radius: 10px;
     border: solid lightslategray;
 }
 
-.card-subtext {
+.card-subtexts {
+    font-size: 10px;
    text-align: center;
-   margin-top: 15px;
+   margin-top: 0;
+}
+
+.quote-wrapper{
+    background-color: #E5E7EB;
+    padding: 40px 40px;
+}
+
+.quote-text {
+    font-size: 30px;
+    font-style: italic #1F2937;
+    font-weight: lighter;
 }
 
 
