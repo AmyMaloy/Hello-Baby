@@ -43,7 +43,6 @@ h1 {
 
 .cards-wrapper {
     margin: 80px;
-    font-size: 12px;
 }
 
 h2 {
@@ -52,6 +51,7 @@ h2 {
     color: black;
     text-align: center;
     margin-top: -50px;
+    margin-bottom: 0;
 }
 
 .card-container {
@@ -62,22 +62,24 @@ h2 {
 }
 
 .card-image {
-    width: 100px;
-    height: 100px;
-    margin: 10px;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    margin-bottom: 0;
     border-radius: 10px;
     border: solid lightslategray;
 }
 
-.card-subtexts {
-    font-size: 10px;
+.card-subtext {
+    margin-top: 0;
+   font-size: 18px;
    text-align: center;
-   margin-top: 0;
 }
 
 .quote-wrapper{
     background-color: #E5E7EB;
-    padding: 20px 20px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .quote-text {
@@ -87,46 +89,36 @@ h2 {
 }
 
 .call-to-action-wrapper {
-    margin: 60px;
+    margin: 100px;
 }
 
 .call-to-action-container {
     background-color: #3882F6;
-    color: #E5E7EB;
-    width: 600px;
-    height: 80px;
-    margin: 0px;
-    padding: 5px;
     display: flex;
-    justify-items: center;
-    border: none;
-    border-radius: 5px;
-}
-
-.call-to-action-card {
-    padding: 20px;
-    margin: 0;
+    justify-content: space-around;
     align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 5px;
+    padding: 20px;
 }
 
 h3 {
-    margin-top: 0px;
-    margin-bottom:0;
+    color: #E5E7EB;
+    margin: 0;
+    padding:0;
 }
 
 .call-to-action-text {
-    padding: 0px;
+    color: #E5E7EB;
+    padding: 0;
     margin: 0;
 }
 
 .sign-up-button-second {
     background-color: #3882F6;
     color: #E5E7EB;
-    border-radius: 5px;
-    border: 1px solid #E5E7EB;
-    align-items: center;
-    margin: 20px;
-    padding: 20px; 
+    border: 2px solid #E5E7EB;
 }
 
 .footer {
@@ -137,8 +129,6 @@ h3 {
     justify-content: center;
     padding: 10px;
     margin: 0px;
-
-
 }
 
 
